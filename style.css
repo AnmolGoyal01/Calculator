@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+.heading{
+    height: 80px;
+    width: 100vw;
+    background-color: #333333;
+    display: inline-block;
+    color: white;
+    line-height: 80px;
+    font-size: 3em;
+    margin-bottom: 100px;
+}
+
+body{
+    background-color: #e5e5e5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator{
+    height: 650px;
+    width: 350px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8%;
+    border: 1px solid black;
+}
+
+.screen{
+    margin-top: 110px;
+    margin-right: 40px;
+    height: 100px;
+    width:  320px;
+    color: White;
+    font-size: 4.5em;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+}
+
+.keys{
+    font-size: 2.5em;
+    margin-top: 10px;
+    height: 400px;
+    width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.key{
+    height: 70px;
+    width: 70px;
+    border: none;
+    background-color: #333333;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .9em;
+    color: white;
+    font-weight: 400;
+}
+
+#ac , #plus-minus , #percent{
+    background-color: #a6a6a6;
+    color: black;
+}
+
+#divide, #multiply, #minus, #plus, #equals{
+    background-color: #ff9d0a;
+}
